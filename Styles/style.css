@@ -1,6 +1,7 @@
 header{
     font-size: 11px;
-    background-color: black;
+    line-height: 15px;
+    background-color: #131313;
     color: white;
     height: 83px;
     margin: 0;
@@ -23,6 +24,18 @@ a{
     color: white;
     text-transform: uppercase;
     font: inherit;
+    font-size: 11px;
+}
+
+.transparent{
+    background: #E3B87300;
+    box-shadow: none;
+    border: 1px solid #FFFFFF;
+    margin-left: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
 }
 
 .italic{
@@ -39,7 +52,13 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 90px;
+    width: 100%;
+}
+
+.column{
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .header-nav{
@@ -61,6 +80,36 @@ a.tel{
     color: #E3B873;
 }
 
-.logo{
+.yellow{
     color: #E3B873;
+}
+
+.sec-first{
+    height: 707px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.dark{
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    z-index: -1;
+}
+
+.title{
+    margin-top: 194px;
+    margin-left: 42px;
+    font-family: 'Yeseva One','Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.paragraph{
+    margin-left: 42px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
 }
