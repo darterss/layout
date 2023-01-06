@@ -309,7 +309,7 @@ a.tel{
 }
 
 .checkbox{
-    opacity: 0;  /*hide standart checkbox*/
+    opacity: 0;  /*hide standard checkbox*/
 
 }
 
@@ -379,7 +379,7 @@ a.tel{
 .cost-box{
     background: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    font-family: 'Yeseva One', "Times New Roman", Serif;
+    font-family: 'Yeseva One', "Times New Roman", serif;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -412,7 +412,7 @@ a.tel{
     height: 58px;
     background: #E3B873;
     border: 8px solid #FFFFFF;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    box-shadow: 0 5px 15px rgba(227, 184, 115, 0.15);
     border-radius: 30px;
     font-family: 'Yeseva One', 'Times New Roman', serif;
     font-style: normal;
@@ -460,7 +460,7 @@ a.tel{
 
 .form-in-fifth{
     background: #131313;
-    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
     margin-right: 100px;
     width: 506px;
     height: 509px;
@@ -468,7 +468,6 @@ a.tel{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .form-in-fifth p{
@@ -512,19 +511,22 @@ a.tel{
     min-width: 72px;
     height: 72px;
     background: #E3B873;
-    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    box-shadow: 0 10px 20px rgba(237, 192, 120, 0.2);
     border-radius: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
+
 .pig+span{
-    font-size: 14px;
-    line-height: 19px;
-    color: #363636;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 25px;
+    color: #E3B873;
     display: inline-flex;
     max-width: 316px;
     text-align: start;
+    text-shadow: 0 3px 10px rgba(227, 184, 115, 0.15);
 }
 
 .part1-sec-fifth{
@@ -534,7 +536,7 @@ a.tel{
 
 .div-pig{
     display: flex;
-    margin-right: 132px;
+    margin-right: 250px;
     margin-top: 38px;
     align-items: center;
     justify-content: right;
@@ -556,7 +558,6 @@ a.tel{
 
 .sec-sixth .container:nth-of-type(1){
     margin-left: 99px;
-
 }
 
 .sec-sixth .header-nav{
@@ -575,7 +576,6 @@ a.tel{
 
 .col-second{
     margin-top: -42px;
-
 }
 
 .sec-sixth .container.column.col-second img:nth-child(1){
@@ -589,6 +589,10 @@ a.tel{
 
 .sec-sixth .container.column.col-third img:nth-child(1){
     margin-bottom: 37px;
+}
+
+.sec-sixth .container.column.col-third img:nth-child(2){
+    margin-bottom: 40px;
 }
 
 .sec-sixth .container{
@@ -606,7 +610,7 @@ a.tel{
 .white-box-shadow{
     Width: 376px;
     Height: 428px;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.04);
     margin-top: 39px;
 }
 
@@ -656,7 +660,7 @@ a.tel{
     width: 135px;
     height: 54px;
     background: #E3B873;
-    font-family: 'Yeseva One', "Times New Roman", Serif;
+    font-family: 'Yeseva One', "Times New Roman", serif;
     font-size: 17px;
     line-height: 24px;
     text-transform: uppercase;
@@ -676,4 +680,94 @@ a.tel{
     justify-content: space-between;
     margin-left: 103px;
     margin-right: 101px;
+}
+
+.sec-eighth{
+    display: flex;
+    flex-direction: column;
+}
+
+.town{
+    background: url("../Images/sec-eighth-bg.jpg") center no-repeat;
+    height: 381px;
+    width: 50%;
+    margin-top: 50px;
+    opacity: 0.05;
+}
+
+.transf{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.flex{
+    display: flex;
+}
+
+.map{
+    height: 954px;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url("../Images/sec-eighth-bg2.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.sec-eighth .form-in-fifth{
+    background: #181818;
+    width: 883px;
+    height: 445px;
+    margin: -1176px auto 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+.sec-eighth .subtitle-h5{
+    margin-top: 34px;
+}
+
+#input-ph8, #input-nm8, #input-question{
+    background-color: inherit;
+    color: #FFFFFF;
+    border-style: none;
+    border-bottom-style: inset;
+    width: 231px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+#input-question{
+    width: 517px;
+}
+
+.sec-eighth .button{
+    width: 200px;
+    margin: 0 auto 34px auto;
+}
+
+.sec-eighth .subtitle-h5{
+    color: #E3B873;
+    margin-top: 52px;
+}
+
+.sec-eighth .circle-num{
+    border: 1px solid #E3B873;
+    margin-left: 15px;
+    margin-top: 26px;
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+    align-items: end;
+}
+
+.sec-eighth .flex{
+    justify-content: center;
+}
+
+.iframe{
+    margin: 50px auto 0 auto;
+    width: 925px;
+    height: 465px;
+}
+
+footer.header{
+    margin-top: 42px;
+    height: 133px;
 }
